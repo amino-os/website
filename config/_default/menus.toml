@@ -5,5 +5,20 @@
 
 [[main]]
   name = "Amino-os"
-  url = "#amino-os"
+  url = "amino-os"
   weight = 1
+
+[[main]]
+  name = "Amino.Run"
+  url = "amino-run"
+  weight = 2
+
+[[main]]
+  name = "Join Us"
+  url = "join-us"
+  weight = 3
+
+[[main]]
+  name = "Documentation"
+  url = "https://amino.readthedocs.io"
+  weight = 4
