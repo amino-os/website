@@ -1,0 +1,25 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="row featured">
+  {{ with $page.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="col-md-12">
+    <p>{{ . | markdownify }}</p>
+  </div>
+  {{ end }}
+
+  {{ range $page.Params.external }}
+  
+  <div class="col-md-12">
+    <h3><a href="{{ .link }}">{{ .name | markdownify | emojify }}</a></h3>
+    {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+</div>
