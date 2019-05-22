@@ -12,7 +12,7 @@ day_night = true
 font = "default"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Amino-os is a distributed application computing platform providing as easy and quick way to develop distributed application for developers"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = "amino-os-logo.png"
@@ -168,5 +168,4 @@ sharing = true
     api_key = ""
     index_name = ""
     show_logo = false
-
-
+    
