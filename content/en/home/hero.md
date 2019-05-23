@@ -24,7 +24,7 @@ weight = 3
   label = '<i class="fas fa-download"></i> Install Now'
 +++
 
-Distribute Application Development Platform :rocket:
+Distributed Application Development Platform :rocket:
 <div style="margin-top: -0.5rem;">
   <a id="academic-release" href="https://github.com/amino-os/Amino.Run" data-repo="amino-os/Amino.Run">
   Latest release <!-- V -->
