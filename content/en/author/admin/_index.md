@@ -90,4 +90,4 @@ Amino OS is an umbrella project the goal of which is to create a distributed pla
 	<li>Amino.Store: A distributed transactional storage service</li>
 	<li>Amino.Safe: A distributed privacy and security manager</li>
 </ul>
-Amino OS is based on several years of distributed systems research done by Irene and her team at the University of Washington Systems Lab in Seattle, WA. Amino OS is the result of 2 years of collaboration between Huawei Cloud Lab, and UW Sys Lab.
+Amino OS is based on several years of distributed systems research done by Irene and her team at the University of Washington Systems Lab in Seattle, WA. Amino OS is the result of 2 years of collaboration between Futurewei Cloud Lab, and UW Sys Lab.
